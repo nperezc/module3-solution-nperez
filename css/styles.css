@@ -14,6 +14,9 @@ h1, li, a, h2, h3 {
 p{
     font-family: 'Teko', sans-serif;
 }
+a:hover{
+    text-decoration: none;
+}
 
 #header-nav {
     background-color: #E91E63;
@@ -43,6 +46,9 @@ p{
     color: #E91E63;
     letter-spacing: 1px;
 }
+.nav>li{
+        border-bottom: 1px solid;
+}
 .nav>li:hover {
     background-color: #e91e63;
 }
@@ -63,5 +69,17 @@ h3{
     border-color: #FFEB3B;
     background-color: #FFEB3B;
 }
+.navbar-brand h1 {
+    font-size: 4vw;
+}
+
+.up-top{
+    position: fixed;
+    z-index: 9;
+    bottom: 9px;
+    right: 13px;
+    
+}
+
     
 }
